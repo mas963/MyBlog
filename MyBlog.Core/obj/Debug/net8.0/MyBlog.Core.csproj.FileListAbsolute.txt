@@ -1,0 +1,13 @@
+D:\aspdotnet_projects2\MyBlog\MyBlog.Core\bin\Debug\net8.0\MyBlog.Core.deps.json
+d:\aspdotnet_projects2\MyBlog\MyBlog.Core\bin\Debug\net8.0\MyBlog.Core.dll
+d:\aspdotnet_projects2\MyBlog\MyBlog.Core\bin\Debug\net8.0\MyBlog.Core.pdb
+d:\aspdotnet_projects2\MyBlog\MyBlog.Core\obj\Debug\net8.0\MyBlog.Core.csproj.AssemblyReference.cache
+d:\aspdotnet_projects2\MyBlog\MyBlog.Core\obj\Debug\net8.0\MyBlog.Core.GeneratedMSBuildEditorConfig.editorconfig
+d:\aspdotnet_projects2\MyBlog\MyBlog.Core\obj\Debug\net8.0\MyBlog.Core.AssemblyInfoInputs.cache
+d:\aspdotnet_projects2\MyBlog\MyBlog.Core\obj\Debug\net8.0\MyBlog.Core.AssemblyInfo.cs
+d:\aspdotnet_projects2\MyBlog\MyBlog.Core\obj\Debug\net8.0\MyBlog.Core.csproj.CoreCompileInputs.cache
+d:\aspdotnet_projects2\MyBlog\MyBlog.Core\obj\Debug\net8.0\MyBlog.Core.sourcelink.json
+d:\aspdotnet_projects2\MyBlog\MyBlog.Core\obj\Debug\net8.0\MyBlog.Core.dll
+d:\aspdotnet_projects2\MyBlog\MyBlog.Core\obj\Debug\net8.0\refint\MyBlog.Core.dll
+d:\aspdotnet_projects2\MyBlog\MyBlog.Core\obj\Debug\net8.0\MyBlog.Core.pdb
+D:\aspdotnet_projects2\MyBlog\MyBlog.Core\obj\Debug\net8.0\ref\MyBlog.Core.dll

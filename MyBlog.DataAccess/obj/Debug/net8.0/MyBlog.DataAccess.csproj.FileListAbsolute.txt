@@ -1,0 +1,16 @@
+d:\aspdotnet_projects2\MyBlog\MyBlog.DataAccess\bin\Debug\net8.0\MyBlog.DataAccess.deps.json
+d:\aspdotnet_projects2\MyBlog\MyBlog.DataAccess\bin\Debug\net8.0\MyBlog.DataAccess.dll
+d:\aspdotnet_projects2\MyBlog\MyBlog.DataAccess\bin\Debug\net8.0\MyBlog.DataAccess.pdb
+d:\aspdotnet_projects2\MyBlog\MyBlog.DataAccess\bin\Debug\net8.0\MyBlog.Core.dll
+d:\aspdotnet_projects2\MyBlog\MyBlog.DataAccess\bin\Debug\net8.0\MyBlog.Core.pdb
+d:\aspdotnet_projects2\MyBlog\MyBlog.DataAccess\obj\Debug\net8.0\MyBlog.DataAccess.csproj.AssemblyReference.cache
+d:\aspdotnet_projects2\MyBlog\MyBlog.DataAccess\obj\Debug\net8.0\MyBlog.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+d:\aspdotnet_projects2\MyBlog\MyBlog.DataAccess\obj\Debug\net8.0\MyBlog.DataAccess.AssemblyInfoInputs.cache
+d:\aspdotnet_projects2\MyBlog\MyBlog.DataAccess\obj\Debug\net8.0\MyBlog.DataAccess.AssemblyInfo.cs
+d:\aspdotnet_projects2\MyBlog\MyBlog.DataAccess\obj\Debug\net8.0\MyBlog.DataAccess.csproj.CoreCompileInputs.cache
+d:\aspdotnet_projects2\MyBlog\MyBlog.DataAccess\obj\Debug\net8.0\MyBlog.DataAccess.sourcelink.json
+d:\aspdotnet_projects2\MyBlog\MyBlog.DataAccess\obj\Debug\net8.0\MyBlog.DataAccess.csproj.CopyComplete
+d:\aspdotnet_projects2\MyBlog\MyBlog.DataAccess\obj\Debug\net8.0\MyBlog.DataAccess.dll
+d:\aspdotnet_projects2\MyBlog\MyBlog.DataAccess\obj\Debug\net8.0\refint\MyBlog.DataAccess.dll
+d:\aspdotnet_projects2\MyBlog\MyBlog.DataAccess\obj\Debug\net8.0\MyBlog.DataAccess.pdb
+d:\aspdotnet_projects2\MyBlog\MyBlog.DataAccess\obj\Debug\net8.0\ref\MyBlog.DataAccess.dll
