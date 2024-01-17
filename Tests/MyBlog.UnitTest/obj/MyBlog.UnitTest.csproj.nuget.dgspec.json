@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\aspdotnet_projects2\\MyBlog\\Tests\\MyBlog.UnitTest\\MyBlog.UnitTest.csproj": {}
+    "D:\\DOTNET_Projects\\MyBlog\\Tests\\MyBlog.UnitTest\\MyBlog.UnitTest.csproj": {}
   },
   "projects": {
-    "D:\\aspdotnet_projects2\\MyBlog\\Tests\\MyBlog.UnitTest\\MyBlog.UnitTest.csproj": {
+    "D:\\DOTNET_Projects\\MyBlog\\Tests\\MyBlog.UnitTest\\MyBlog.UnitTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\aspdotnet_projects2\\MyBlog\\Tests\\MyBlog.UnitTest\\MyBlog.UnitTest.csproj",
+        "projectUniqueName": "D:\\DOTNET_Projects\\MyBlog\\Tests\\MyBlog.UnitTest\\MyBlog.UnitTest.csproj",
         "projectName": "MyBlog.UnitTest",
-        "projectPath": "D:\\aspdotnet_projects2\\MyBlog\\Tests\\MyBlog.UnitTest\\MyBlog.UnitTest.csproj",
+        "projectPath": "D:\\DOTNET_Projects\\MyBlog\\Tests\\MyBlog.UnitTest\\MyBlog.UnitTest.csproj",
         "packagesPath": "C:\\Users\\yasar\\.nuget\\packages\\",
-        "outputPath": "D:\\aspdotnet_projects2\\MyBlog\\Tests\\MyBlog.UnitTest\\obj\\",
+        "outputPath": "D:\\DOTNET_Projects\\MyBlog\\Tests\\MyBlog.UnitTest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

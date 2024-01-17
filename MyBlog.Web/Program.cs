@@ -1,13 +1,23 @@
-using MyBlog.DataAccess;
-using MyBlog.Application;
+using MyBlog.Web.Services;
+using MyBlog.Web.Services.Impl;
+using MyBlog.Web.Settings;
+using System.Configuration;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-builder.Services.AddMongoDbSettings(builder.Configuration);
-builder.Services.RegisterApplicationDependency(builder.Configuration);
-builder.Services.RegisterDataAccessDependency(builder.Configuration);
+
+builder.Services.Configure<MongoDbSettings>(options =>
+{
+    options.ConnectionString = builder.Configuration
+        .GetSection(nameof(MongoDbSettings) + ":" + MongoDbSettings.ConnectionStringValue).Value;
+    options.Database = builder.Configuration
+        .GetSection(nameof(MongoDbSettings) + ":" + MongoDbSettings.DatabaseValue).Value;
+});
+
+builder.Services.AddScoped<IPostService, PostService>();
+builder.Services.AddScoped<IAuthorService, AuthorService>();
 
 var app = builder.Build();
 

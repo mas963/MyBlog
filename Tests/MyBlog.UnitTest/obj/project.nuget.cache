@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ajMYBuTLCQaVWfo0CO9oNFdM8vP6yoSrXjXktTSYscEQtRpgQtP7UH+PZAJj3zzGHApsLhjmDxzuL9spn9vmdg==",
+  "dgSpecHash": "hIke0Vt2OXjyEdp0Czb6LjfggXxw0WVS0mSR+r+NIcwybb5S+/WPr+fAU7pK4Olq1AovwIiI3g+ZzfpXipyfCQ==",
   "success": true,
-  "projectFilePath": "D:\\aspdotnet_projects2\\MyBlog\\Tests\\MyBlog.UnitTest\\MyBlog.UnitTest.csproj",
+  "projectFilePath": "D:\\DOTNET_Projects\\MyBlog\\Tests\\MyBlog.UnitTest\\MyBlog.UnitTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\yasar\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\yasar\\.nuget\\packages\\microsoft.codecoverage\\17.6.0\\microsoft.codecoverage.17.6.0.nupkg.sha512",

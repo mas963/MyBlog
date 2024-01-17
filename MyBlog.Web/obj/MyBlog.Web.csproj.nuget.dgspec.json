@@ -1,98 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\aspdotnet_projects2\\MyBlog\\MyBlog.Web\\MyBlog.Web.csproj": {}
+    "D:\\DOTNET_Projects\\MyBlog\\MyBlog.Web\\MyBlog.Web.csproj": {}
   },
   "projects": {
-    "D:\\aspdotnet_projects2\\MyBlog\\MyBlog.Application\\MyBlog.Application.csproj": {
+    "D:\\DOTNET_Projects\\MyBlog\\MyBlog.Web\\MyBlog.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\aspdotnet_projects2\\MyBlog\\MyBlog.Application\\MyBlog.Application.csproj",
-        "projectName": "MyBlog.Application",
-        "projectPath": "D:\\aspdotnet_projects2\\MyBlog\\MyBlog.Application\\MyBlog.Application.csproj",
+        "projectUniqueName": "D:\\DOTNET_Projects\\MyBlog\\MyBlog.Web\\MyBlog.Web.csproj",
+        "projectName": "MyBlog.Web",
+        "projectPath": "D:\\DOTNET_Projects\\MyBlog\\MyBlog.Web\\MyBlog.Web.csproj",
         "packagesPath": "C:\\Users\\yasar\\.nuget\\packages\\",
-        "outputPath": "D:\\aspdotnet_projects2\\MyBlog\\MyBlog.Application\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\yasar\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net8.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
-            "projectReferences": {
-              "D:\\aspdotnet_projects2\\MyBlog\\MyBlog.Core\\MyBlog.Core.csproj": {
-                "projectPath": "D:\\aspdotnet_projects2\\MyBlog\\MyBlog.Core\\MyBlog.Core.csproj"
-              },
-              "D:\\aspdotnet_projects2\\MyBlog\\MyBlog.DataAccess\\MyBlog.DataAccess.csproj": {
-                "projectPath": "D:\\aspdotnet_projects2\\MyBlog\\MyBlog.DataAccess\\MyBlog.DataAccess.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
-          "dependencies": {
-            "AutoMapper": {
-              "target": "Package",
-              "version": "[12.0.1, )"
-            },
-            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
-              "target": "Package",
-              "version": "[12.0.1, )"
-            },
-            "FluentValidation.AspNetCore": {
-              "target": "Package",
-              "version": "[11.3.0, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "D:\\aspdotnet_projects2\\MyBlog\\MyBlog.Core\\MyBlog.Core.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\aspdotnet_projects2\\MyBlog\\MyBlog.Core\\MyBlog.Core.csproj",
-        "projectName": "MyBlog.Core",
-        "projectPath": "D:\\aspdotnet_projects2\\MyBlog\\MyBlog.Core\\MyBlog.Core.csproj",
-        "packagesPath": "C:\\Users\\yasar\\.nuget\\packages\\",
-        "outputPath": "D:\\aspdotnet_projects2\\MyBlog\\MyBlog.Core\\obj\\",
+        "outputPath": "D:\\DOTNET_Projects\\MyBlog\\MyBlog.Web\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -126,157 +45,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "MongoDB.Driver": {
+            "AutoMapper": {
               "target": "Package",
-              "version": "[2.23.1, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "D:\\aspdotnet_projects2\\MyBlog\\MyBlog.DataAccess\\MyBlog.DataAccess.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\aspdotnet_projects2\\MyBlog\\MyBlog.DataAccess\\MyBlog.DataAccess.csproj",
-        "projectName": "MyBlog.DataAccess",
-        "projectPath": "D:\\aspdotnet_projects2\\MyBlog\\MyBlog.DataAccess\\MyBlog.DataAccess.csproj",
-        "packagesPath": "C:\\Users\\yasar\\.nuget\\packages\\",
-        "outputPath": "D:\\aspdotnet_projects2\\MyBlog\\MyBlog.DataAccess\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\yasar\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net8.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
-            "projectReferences": {
-              "D:\\aspdotnet_projects2\\MyBlog\\MyBlog.Core\\MyBlog.Core.csproj": {
-                "projectPath": "D:\\aspdotnet_projects2\\MyBlog\\MyBlog.Core\\MyBlog.Core.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
-          "dependencies": {
-            "Microsoft.Extensions.Configuration": {
-              "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[12.0.1, )"
             },
-            "Microsoft.Extensions.Options": {
-              "target": "Package",
-              "version": "[7.0.1, )"
-            },
-            "MongoDB.Driver": {
-              "target": "Package",
-              "version": "[2.23.1, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "D:\\aspdotnet_projects2\\MyBlog\\MyBlog.Web\\MyBlog.Web.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\aspdotnet_projects2\\MyBlog\\MyBlog.Web\\MyBlog.Web.csproj",
-        "projectName": "MyBlog.Web",
-        "projectPath": "D:\\aspdotnet_projects2\\MyBlog\\MyBlog.Web\\MyBlog.Web.csproj",
-        "packagesPath": "C:\\Users\\yasar\\.nuget\\packages\\",
-        "outputPath": "D:\\aspdotnet_projects2\\MyBlog\\MyBlog.Web\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\yasar\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net8.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
-            "projectReferences": {
-              "D:\\aspdotnet_projects2\\MyBlog\\MyBlog.Application\\MyBlog.Application.csproj": {
-                "projectPath": "D:\\aspdotnet_projects2\\MyBlog\\MyBlog.Application\\MyBlog.Application.csproj"
-              },
-              "D:\\aspdotnet_projects2\\MyBlog\\MyBlog.DataAccess\\MyBlog.DataAccess.csproj": {
-                "projectPath": "D:\\aspdotnet_projects2\\MyBlog\\MyBlog.DataAccess\\MyBlog.DataAccess.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
-          "dependencies": {
             "Microsoft.AspNetCore.Components.QuickGrid.EntityFrameworkAdapter": {
               "target": "Package",
               "version": "[8.0.0, )"
@@ -284,6 +56,10 @@
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[8.0.0, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.23.1, )"
             }
           },
           "imports": [

@@ -1,7 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using MyBlog.Application.Models.Author;
-using MyBlog.Application.Models.Post;
-using MyBlog.Application.Services;
+using MyBlog.Web.Exceptions;
+using MyBlog.Web.Models.AuthorModels;
+using MyBlog.Web.Models.PostModels;
+using MyBlog.Web.Services;
 
 namespace MyBlog.Web.Controllers;
 
@@ -25,9 +26,9 @@ public class ValuesController : ControllerBase
         {
             await _authorService.AddAuthorAsync(addAuthorModel);
         }
-        catch (Exception e)
+        catch (Exception ex)
         {
-            Console.WriteLine(e);
+            return BadRequest(ex);
         }
 
         return Ok();
@@ -38,11 +39,26 @@ public class ValuesController : ControllerBase
     {
         try
         {
-            await _postService.AddPostToAuthorAsync(addPostModel);
+            await _postService.AddPostAsync(addPostModel);
         }
-        catch (Exception e)
+        catch (NotFoundException ex)
         {
-            Console.WriteLine(e);
+            return BadRequest("not found");
+        }
+
+        return Ok();
+    }
+
+    [HttpDelete("DeletePost")]
+    public async Task<IActionResult> DeletePost(string postId)
+    {
+        try
+        {
+            await _postService.DeletePostAsync(postId);
+        }
+        catch (NotFoundException ex)
+        {
+            return BadRequest("not found");
         }
 
         return Ok();
