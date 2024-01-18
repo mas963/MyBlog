@@ -1,13 +1,13 @@
+using MyBlog.Web.MappingProfiles;
 using MyBlog.Web.Services;
 using MyBlog.Web.Services.Impl;
 using MyBlog.Web.Settings;
-using System.Configuration;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-
+builder.Services.AddAutoMapper(typeof(AutoMapperProfiles));
 builder.Services.Configure<MongoDbSettings>(options =>
 {
     options.ConnectionString = builder.Configuration
@@ -15,7 +15,6 @@ builder.Services.Configure<MongoDbSettings>(options =>
     options.Database = builder.Configuration
         .GetSection(nameof(MongoDbSettings) + ":" + MongoDbSettings.DatabaseValue).Value;
 });
-
 builder.Services.AddScoped<IPostService, PostService>();
 builder.Services.AddScoped<IAuthorService, AuthorService>();
 

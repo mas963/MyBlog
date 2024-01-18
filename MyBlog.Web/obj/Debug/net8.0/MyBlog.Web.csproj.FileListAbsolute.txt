@@ -262,13 +262,9 @@ D:\DOTNET_Projects\MyBlog\MyBlog.Web\bin\Debug\net8.0\MyBlog.Web.runtimeconfig.j
 D:\DOTNET_Projects\MyBlog\MyBlog.Web\bin\Debug\net8.0\MyBlog.Web.dll
 D:\DOTNET_Projects\MyBlog\MyBlog.Web\bin\Debug\net8.0\MyBlog.Web.pdb
 D:\DOTNET_Projects\MyBlog\MyBlog.Web\bin\Debug\net8.0\AutoMapper.dll
-D:\DOTNET_Projects\MyBlog\MyBlog.Web\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 D:\DOTNET_Projects\MyBlog\MyBlog.Web\bin\Debug\net8.0\AWSSDK.Core.dll
 D:\DOTNET_Projects\MyBlog\MyBlog.Web\bin\Debug\net8.0\AWSSDK.SecurityToken.dll
 D:\DOTNET_Projects\MyBlog\MyBlog.Web\bin\Debug\net8.0\DnsClient.dll
-D:\DOTNET_Projects\MyBlog\MyBlog.Web\bin\Debug\net8.0\FluentValidation.dll
-D:\DOTNET_Projects\MyBlog\MyBlog.Web\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
-D:\DOTNET_Projects\MyBlog\MyBlog.Web\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
 D:\DOTNET_Projects\MyBlog\MyBlog.Web\bin\Debug\net8.0\Humanizer.dll
 D:\DOTNET_Projects\MyBlog\MyBlog.Web\bin\Debug\net8.0\Microsoft.AspNetCore.Components.QuickGrid.dll
 D:\DOTNET_Projects\MyBlog\MyBlog.Web\bin\Debug\net8.0\Microsoft.AspNetCore.Components.QuickGrid.EntityFrameworkAdapter.dll
@@ -476,18 +472,11 @@ D:\DOTNET_Projects\MyBlog\MyBlog.Web\bin\Debug\net8.0\runtimes\win\native\mongoc
 D:\DOTNET_Projects\MyBlog\MyBlog.Web\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
 D:\DOTNET_Projects\MyBlog\MyBlog.Web\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 D:\DOTNET_Projects\MyBlog\MyBlog.Web\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
-D:\DOTNET_Projects\MyBlog\MyBlog.Web\bin\Debug\net8.0\MyBlog.Application.dll
-D:\DOTNET_Projects\MyBlog\MyBlog.Web\bin\Debug\net8.0\MyBlog.Core.dll
-D:\DOTNET_Projects\MyBlog\MyBlog.Web\bin\Debug\net8.0\MyBlog.DataAccess.dll
-D:\DOTNET_Projects\MyBlog\MyBlog.Web\bin\Debug\net8.0\MyBlog.Application.pdb
-D:\DOTNET_Projects\MyBlog\MyBlog.Web\bin\Debug\net8.0\MyBlog.DataAccess.pdb
-D:\DOTNET_Projects\MyBlog\MyBlog.Web\bin\Debug\net8.0\MyBlog.Core.pdb
 D:\DOTNET_Projects\MyBlog\MyBlog.Web\obj\Debug\net8.0\MyBlog.Web.csproj.AssemblyReference.cache
 D:\DOTNET_Projects\MyBlog\MyBlog.Web\obj\Debug\net8.0\MyBlog.Web.GeneratedMSBuildEditorConfig.editorconfig
 D:\DOTNET_Projects\MyBlog\MyBlog.Web\obj\Debug\net8.0\MyBlog.Web.AssemblyInfoInputs.cache
 D:\DOTNET_Projects\MyBlog\MyBlog.Web\obj\Debug\net8.0\MyBlog.Web.AssemblyInfo.cs
 D:\DOTNET_Projects\MyBlog\MyBlog.Web\obj\Debug\net8.0\MyBlog.Web.csproj.CoreCompileInputs.cache
-D:\DOTNET_Projects\MyBlog\MyBlog.Web\obj\Debug\net8.0\MyBlog.Web.MvcApplicationPartsAssemblyInfo.cs
 D:\DOTNET_Projects\MyBlog\MyBlog.Web\obj\Debug\net8.0\MyBlog.Web.MvcApplicationPartsAssemblyInfo.cache
 D:\DOTNET_Projects\MyBlog\MyBlog.Web\obj\Debug\net8.0\MyBlog.Web.RazorAssemblyInfo.cache
 D:\DOTNET_Projects\MyBlog\MyBlog.Web\obj\Debug\net8.0\MyBlog.Web.RazorAssemblyInfo.cs
@@ -508,3 +497,4 @@ D:\DOTNET_Projects\MyBlog\MyBlog.Web\obj\Debug\net8.0\refint\MyBlog.Web.dll
 D:\DOTNET_Projects\MyBlog\MyBlog.Web\obj\Debug\net8.0\MyBlog.Web.pdb
 D:\DOTNET_Projects\MyBlog\MyBlog.Web\obj\Debug\net8.0\MyBlog.Web.genruntimeconfig.cache
 D:\DOTNET_Projects\MyBlog\MyBlog.Web\obj\Debug\net8.0\ref\MyBlog.Web.dll
+D:\DOTNET_Projects\MyBlog\MyBlog.Web\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

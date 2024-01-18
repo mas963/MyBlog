@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "mlaRt1ydkOpk/NV81u//jXxIJbjeATUGi1Wa8lHAQvKfLG9iXMu3CmUTqE6YOVqp023yK5QCGDuQawTvvjE1oQ==",
+  "dgSpecHash": "mBQsk4QB0T5Mv8hfWwtNiFkf2SynBOs0oIkQjlgc7TJkCnRW3MGg2wDUlfUzY3YOkn6lcTm2MdjiJXaonoy8Dg==",
   "success": true,
   "projectFilePath": "D:\\DOTNET_Projects\\MyBlog\\MyBlog.Web\\MyBlog.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\yasar\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\yasar\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\yasar\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",
     "C:\\Users\\yasar\\.nuget\\packages\\awssdk.securitytoken\\3.7.100.14\\awssdk.securitytoken.3.7.100.14.nupkg.sha512",
     "C:\\Users\\yasar\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",

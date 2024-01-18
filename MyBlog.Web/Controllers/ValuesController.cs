@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using MongoDB.Bson;
 using MyBlog.Web.Exceptions;
 using MyBlog.Web.Models.AuthorModels;
 using MyBlog.Web.Models.PostModels;
@@ -54,7 +55,7 @@ public class ValuesController : ControllerBase
     {
         try
         {
-            await _postService.DeletePostAsync(postId);
+            await _postService.DeletePostAsync(ObjectId.Parse(postId));
         }
         catch (NotFoundException ex)
         {

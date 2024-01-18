@@ -1,6 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using MyBlog.Application.Models.Author;
-using MyBlog.Application.Services;
+using MyBlog.Web.Services;
 
 namespace MyBlog.Web.Controllers;
 

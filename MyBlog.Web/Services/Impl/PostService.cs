@@ -28,7 +28,7 @@ public class PostService : IPostService
 
     public async Task AddPostAsync(AddPostModel addPostModel)
     {
-        var author = await _authorCollection.Find(x => x.Id == addPostModel.AuthorId).FirstOrDefaultAsync();
+        var author = await _authorCollection.Find(x => x.Id == ObjectId.Parse(addPostModel.AuthorId)).FirstOrDefaultAsync();
 
         if (author == null)
         {
@@ -37,26 +37,28 @@ public class PostService : IPostService
 
         var post = _mapper.Map<Post>(addPostModel);
 
-        var filter = Builders<Author>.Filter.Eq("_id", ObjectId.Parse(addPostModel.AuthorId));
-        var update = Builders<Author>.Update.Push(a => a.PostIds, ObjectId.Parse(post.Id));
+        var filter = Builders<Author>.Filter.Eq(x => x.Id, ObjectId.Parse(addPostModel.AuthorId));
+        var update = Builders<Author>.Update.Push(a => a.PostIds, post.Id);
 
         await _authorCollection.UpdateOneAsync(filter, update);
 
         await _postCollection.InsertOneAsync(post);
     }
 
-    public async Task DeletePostAsync(string postId)
+    public async Task DeletePostAsync(ObjectId postId)
     {
+        var post = await _postCollection.Find(x => x.Id == postId).FirstOrDefaultAsync();
         var deleteResult = await _postCollection.DeleteOneAsync(x => x.Id == postId);
 
-        if (deleteResult == null)
+        if (deleteResult.DeletedCount == 0 || post == null)
         {
             throw new NotFoundException();
         }
 
-        var filter = Builders<Author>.Filter.ElemMatch(a => a.PostIds, post => post == ObjectId.Parse(postId));
-        var update = Builders<Author>.Update.Pull(a => a.PostIds, ObjectId.Parse(postId));
+        var filter = Builders<Author>.Filter.Eq(x => x.Id, post.AuthorId);
+        Console.WriteLine($"postId: {postId}, post.Id: {post.Id}");
+        var update = Builders<Author>.Update.Pull(u => u.PostIds, postId);
 
-        await _authorCollection.UpdateOneAsync(filter, update);
+        var updateResult = await _authorCollection.UpdateOneAsync(filter, update);
     }
 }

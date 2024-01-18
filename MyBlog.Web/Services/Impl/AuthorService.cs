@@ -32,7 +32,6 @@ public class AuthorService : IAuthorService
         author.PasswordHash = passwordHash;
         author.PasswordSalt = passwordSalt;
 
-        //await _authorRepository.AddAsync(author);
         await _authorCollection.InsertOneAsync(author);
     }
 }
