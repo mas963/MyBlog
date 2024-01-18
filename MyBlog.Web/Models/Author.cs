@@ -7,7 +7,7 @@ public class Author
 {
     [BsonId]
     //[BsonRepresentation(BsonType.ObjectId)]
-    public ObjectId Id { get; set; }
+    public ObjectId Id { get; set; } = ObjectId.GenerateNewId();
     public string Username { get; set; }
     public string Email { get; set; }
     public string FirstName { get; set; }

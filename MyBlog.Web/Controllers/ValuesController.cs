@@ -20,6 +20,14 @@ public class ValuesController : ControllerBase
         _postService = postService;
     }
 
+    [HttpGet("GetPosts")]
+    public async Task<IActionResult> GetPosts()
+    {
+        var posts = await _postService.GetPostsAsync();
+
+        return Ok(posts);
+    }
+
     [HttpPost("AddAuthor")]
     public async Task<IActionResult> AddAuthor([FromBody] AddAuthorModel addAuthorModel)
     {

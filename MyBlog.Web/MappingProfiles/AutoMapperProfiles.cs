@@ -10,9 +10,15 @@ public class AutoMapperProfiles : Profile
 {
     public AutoMapperProfiles()
     {
+        #region Author
         CreateMap<AddAuthorModel, Author>();
+        #endregion
 
+        #region Post
         CreateMap<AddPostModel, Post>()
-            .ForMember(dest => dest.Id, opt => opt.MapFrom(src => ObjectId.Parse(src.AuthorId)));
+            .ForMember(dest => dest.AuthorId, opt => opt.MapFrom(src => ObjectId.Parse(src.AuthorId)));
+
+        CreateMap<GetPostsModel, Post>();
+        #endregion
     }
 }

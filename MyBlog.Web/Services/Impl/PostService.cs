@@ -1,4 +1,5 @@
-﻿using AutoMapper;
+﻿using Amazon.Runtime.Internal.Util;
+using AutoMapper;
 using Microsoft.Extensions.Options;
 using MongoDB.Bson;
 using MongoDB.Driver;
@@ -36,13 +37,12 @@ public class PostService : IPostService
         }
 
         var post = _mapper.Map<Post>(addPostModel);
+        await _postCollection.InsertOneAsync(post);
 
         var filter = Builders<Author>.Filter.Eq(x => x.Id, ObjectId.Parse(addPostModel.AuthorId));
         var update = Builders<Author>.Update.Push(a => a.PostIds, post.Id);
 
         await _authorCollection.UpdateOneAsync(filter, update);
-
-        await _postCollection.InsertOneAsync(post);
     }
 
     public async Task DeletePostAsync(ObjectId postId)
@@ -60,5 +60,22 @@ public class PostService : IPostService
         var update = Builders<Author>.Update.Pull(u => u.PostIds, postId);
 
         var updateResult = await _authorCollection.UpdateOneAsync(filter, update);
+    }
+
+    public async Task<List<GetPostsModel>> GetPostsAsync()
+    {
+        var posts = await _postCollection.Find(_ => true).ToListAsync();
+
+        var authorIds = posts.Select(post => post.AuthorId).ToList();
+        var authors = await _authorCollection.Find(author => authorIds.Contains(author.Id)).ToListAsync();
+
+        var postsModel = posts.Select(post => new GetPostsModel
+        {
+            Title = post.Title,
+            Content = post.Content,
+            AuthorUsername = authors.FirstOrDefault(author => author.Id == post.AuthorId)?.Username,
+        }).ToList();
+
+        return postsModel;
     }
 }

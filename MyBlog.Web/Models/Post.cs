@@ -7,7 +7,7 @@ public class Post
 {
     [BsonId]
     //[BsonRepresentation(BsonType.ObjectId)]
-    public ObjectId Id { get; set; }
+    public ObjectId Id { get; set; } = ObjectId.GenerateNewId();
     public string Title { get; set; }
     public string Content { get; set; }
     public List<string> Tags { get; set; }
